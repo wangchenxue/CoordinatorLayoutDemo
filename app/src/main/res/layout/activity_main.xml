@@ -70,7 +70,9 @@
         app:layout_behavior=".MyBehavior"
         android:layout_margin="15dp"
         android:clickable="true"
-        android:src="@mipmap/img_floating"
+        android:src="@mipmap/img_add"
+        app:backgroundTint="#9f6ef9"
+        app:rippleColor="#836ff6"
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|center"/>
 

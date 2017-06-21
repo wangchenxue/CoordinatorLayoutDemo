@@ -22,15 +22,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         img_viewSearch = (ImageView) findViewById(R.id.search);
-        imag_viewAdd = (ImageView) findViewById(R.id.imgview);
+      //  imag_viewAdd = (ImageView) findViewById(R.id.imgview);
         mTabLayout = (TabLayout) findViewById(R.id.tab22);
-        img_viewSearch.setOnClickListener(new View.OnClickListener() {
+      /*  img_viewSearch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 imag_viewAdd.setVisibility(View.VISIBLE);
             }
-        });
+        });*/
         toolbar.setTitle("");
         setSupportActionBar(toolbar);
         CollapsingToolbarLayout collapsingtoolbarlayout = (CollapsingToolbarLayout) findViewById(R.id.collapsingtoolbarlayout);
