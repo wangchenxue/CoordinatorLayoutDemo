@@ -1,0 +1,3 @@
+# CoordinatorLayoutDemo
+利用CoordinatorLayout，collapsingtoolbarlayout，Toolbar实现toolbar折叠，
+通过自定义behavior实现，toolbar折叠时floatingActionButton的移动以及透明度的变换。
