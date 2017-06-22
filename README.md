@@ -5,3 +5,5 @@
 CoordinatorLayout可以用来配合浮动操作按钮的 layout_anchor 和 layout_gravity属性创造出浮动效果，
 layout_anchor 指定参照物, anchorGravity 指定相对于参照物的位置，
 设置为 bottom|right则表示将FloatingActionButton放置于参照物的右下角。
+
+如果CoordinatorLayout需要和Recycle等结合使用，则在Recycle中记得添加app:layout_behavior="@string/appbar_scrolling_view_behavior"
